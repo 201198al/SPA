@@ -10,7 +10,7 @@ $user = getCurrentUser();
 </head>
 <body>
     <div class="container">
-        <h1>SPA салон</h1>
+        <h1>SPA салон Акватера</h1>
         
                 <nav style="margin: 20px 0;">
             <a href="index.php" style="margin: 0 10px;">Главная</a>
