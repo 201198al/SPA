@@ -41,7 +41,7 @@ $user = getCurrentUser();
 
 <h2>Акции</h2>
 
-<p>Специальная акция для новых гостей — скидка 10% на первую процедуруСкидка 20% на первый визит</p>
+<p>Специальная акция для новых гостей — Скидка 20% на первый визит</p>
 
 <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874" width="500">
 <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1" width="500">
