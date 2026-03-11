@@ -32,6 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 ?>
 
+<link rel="stylesheet" href="style.css">
+
 <h2>Вход</h2>
 
 <form method="POST">

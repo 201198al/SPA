@@ -6,6 +6,8 @@ $user = getCurrentUser();
 
 ?>
 
+<link rel="stylesheet" href="style.css">
+
 <h1>SPA салон</h1>
 
 <?php if ($user): ?>
