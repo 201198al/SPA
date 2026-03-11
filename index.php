@@ -8,6 +8,8 @@ $user = getCurrentUser();
 
 <link rel="stylesheet" href="style.css">
 
+<div class="container">
+
 <h1>SPA салон</h1>
 
 <?php if ($user): ?>
@@ -109,3 +111,5 @@ if ($user) {
 }
 
 ?>
+
+</div>

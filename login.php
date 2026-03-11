@@ -34,6 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <link rel="stylesheet" href="style.css">
 
+<div class="container">
+
 <h2>Вход</h2>
 
 <form method="POST">
@@ -53,3 +55,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <p style="color:red"><?php echo $error; ?></p>
 
 <a href="register.php">Регистрация</a>
+
+</div>
