@@ -12,8 +12,7 @@ $user = getCurrentUser();
     <div class="container">
         <h1>SPA салон</h1>
         
-        <!-- Навигация -->
-        <nav style="margin: 20px 0;">
+                <nav style="margin: 20px 0;">
             <a href="index.php" style="margin: 0 10px;">Главная</a>
             <?php if ($user): ?>
                 <span>Вы вошли как: <strong><?php echo $user; ?></strong></span>
@@ -54,7 +53,7 @@ $user = getCurrentUser();
         <p>✨ Специальная акция для новых гостей - Скидка 20% на первый визит ✨</p>
         
         <?php if ($user): ?>
-            <!-- Персональная акция с таймером -->
+            
             <?php if (isset($_SESSION['login_time'])): 
                 $expire = $_SESSION['login_time'] + 86400;
                 $remaining = $expire - time();
@@ -67,11 +66,20 @@ $user = getCurrentUser();
                     <h3>🎁 Ваша персональная скидка действует:</h3>
                     <p style="font-size: 2em;"><?php echo $hours; ?>ч <?php echo $minutes; ?>мин <?php echo $seconds; ?>сек</p>
                 </div>
-            <?php else: ?>
+            <?php 
+                else: 
+            ?>
                 <p style="color: #999;">Персональная акция закончилась</p>
-            <?php endif; ?>
+            <?php 
+                endif;
+            else:
+            ?>
+                <p style="color: #999;">Таймер не запущен</p>
+            <?php 
+                endif; 
+            ?>
             
-            <!-- Акция ко дню рождения -->
+           
             <?php
             $birthday = getUserBirthday($user);
             if ($birthday):
@@ -99,7 +107,7 @@ $user = getCurrentUser();
                 <p>До вашего дня рождения осталось <strong><?php echo $diff; ?></strong> дней</p>
             <?php 
                 endif;
-            endif;
+            endif; 
             ?>
         <?php endif; ?>
         
