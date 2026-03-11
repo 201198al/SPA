@@ -114,9 +114,9 @@ $user = getCurrentUser();
         <h2>Фотогалерея</h2>
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
             <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
-            <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
-            <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
-            <img src="https://images.unsplash.com/photo-1570179490247-dca1b2b20a3e?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+<img src="https://images.unsplash.com/photo-1560757791-7b9159a4b9bc?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
         </div>
     </div>
 </body>
