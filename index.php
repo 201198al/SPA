@@ -5,7 +5,7 @@ $user = getCurrentUser();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SPA салон</title>
+    <title>SPA салон Акватера</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
