@@ -113,10 +113,10 @@ $user = getCurrentUser();
         
         <h2>Фотогалерея</h2>
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
-<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
-<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
-<img src="https://images.unsplash.com/photo-1560757791-7b9159a4b9bc?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+           <img src="https://images.pexels.com/photos/3997991/pexels-photo-3997991.jpeg?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+<img src="https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+<img src="https://images.pexels.com/photos/5069605/pexels-photo-5069605.jpeg?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+<img src="https://images.pexels.com/photos/6621361/pexels-photo-6621361.jpeg?w=600" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
         </div>
     </div>
 </body>
